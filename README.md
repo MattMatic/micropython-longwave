@@ -4,6 +4,8 @@ WAV player for MicroPython board
 Uses double buffered approach to load chunks of samples.
 Needs to be polled frequently so the chunks can be refreshed.
 
+Matt Page / mattmatic@hotmail.com
+
 # Usage
     from longwave import LongWave
     lw = LongWave() # Default uses DAC1 and Timer4
